@@ -19,7 +19,7 @@
 - [x] Premium And Refer On / Off 
 - [x] Stream Feature On / Off 
 - [x] Url Shortner On / Off Feature 
-- [x] Pm Search On / Off
+- [x] Pm Search On / Offb
 - [x] Request To Join Force Subscribe With Auto File Send 
 - [x] Custom Stream
 - [x] Stream Feature With Many Player Support 
