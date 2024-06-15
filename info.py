@@ -20,7 +20,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Film Corner')
 API_ID = int(environ.get('API_ID', '7880996'))
 API_HASH = environ.get('API_HASH', '914be3dde138ba7e513eebaf88a83c14')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7436052091:AAFkKVko33euKeDbfg5YPsK28L0aWuEcHSM")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7436052091:AAGIXUloZPZ1XWiWHPc_4Ex-o76o3XvPbKY")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
