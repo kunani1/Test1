@@ -17,10 +17,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Film Corner')
-API_ID = int(environ.get('API_ID', '7880996'))
-API_HASH = environ.get('API_HASH', '914be3dde138ba7e513eebaf88a83c14')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7436052091:AAGIXUloZPZ1XWiWHPc_4Ex-o76o3XvPbKY")
+SESSION = environ.get('SESSION', 'Cartoon India')
+API_ID = int(environ.get('API_ID', '25303560'))
+API_HASH = environ.get('API_HASH', '7971fa6f16ed81957357e008078b0c96')
+BOT_TOKEN = environ.get('BOT_TOKEN', "5800091613:AAGK7rwkTDov4dDrGewZGZwYeTfgB-xnHmg")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
@@ -30,7 +30,7 @@ MELCOW_VID = environ.get("MELCOW_VID", "")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
 
 # Admins, Channels & Users
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002154773219'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002362917156'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6344607551').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002172886584').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
@@ -40,11 +40,11 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
 REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', True)) # Set True Or False
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', True)) # Set True Or False
-auth_channel = environ.get('AUTH_CHANNEL', '-1002162389529') # give your force subscribe channel id here else leave it blank
+auth_channel = environ.get('AUTH_CHANNEL', '-1002087524833') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002162389529')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002417974757')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002238927125')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1001776311288')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
@@ -52,8 +52,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 # MongoDB information
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ksai:ksai@cluster0.kayzwoi.mongodb.net/cluster0?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "filmcornermpbot")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'filmcornercollection')
+DATABASE_NAME = environ.get('DATABASE_NAME', "cartoonindia")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'cartoonindiacollection')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
@@ -66,10 +66,10 @@ PAYMENT_TEXT = environ.get('PAYMENT_TEXT', '<b>- ᴀᴠᴀɪʟᴀʙʟᴇ ᴘʟ�
 OWNER_USERNAME = environ.get('OWNER_USERNAME', 'FILM_CORNER_Ownerbot') # owner username without @
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+pNAH17A4bLxjN2Y1')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/Film_Corner_Up')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+GIgX6FAp9Ss3YTll')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+x0pku3QtobllYjdl')
 TUTORIAL = environ.get('TUTORIAL', '')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+pNAH17A4bLxjN2Y1') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', '+GIgX6FAp9Ss3YTll) # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
