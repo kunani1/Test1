@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "7557078677:AAECkXZP7b8DpLsrR2Qcchk2XMcNg2N
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://cartoonindia.42web.io/wp-content/uploads/2024/10/IMG_20241009_072831_872.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', '')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
